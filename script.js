@@ -148,3 +148,49 @@ console.log("Day2");
 // }
 // solution is let and const
 // The hoisting is  ay var or ay fn {global} can used before el declaration f a3la 7aga fe scope bta3o
+// console.log(test());
+// function test() {
+//   console.log("hi");
+// }
+
+// var t = test;
+// t();
+
+// Anonymous fn hasn't name
+// var f = function (a, b) {
+//   return a + b;
+// };
+// var x = f(2, 4);
+// console.log(x);
+
+//self invoked fn
+// var f = (function (a, b) {
+//   return a + b;
+// })(2, 4);
+// console.log(f);
+// anonymous fn invoked just after it declaration
+// console.log(s);
+// s();
+// fn expression
+// var s = function () {
+//   console.log("func");
+// };
+// s();
+// fn declaration
+// console.log(test());
+// function test() {
+//   console.log("func");
+// }
+// callback fn
+// Try Catch
+// function test(x, y) {
+//   if (arguments.length === 2 && x && y) {
+//     console.log(x, y);
+//   } else {
+//     throw "wala mthzrsh";
+//   }
+// }
+// console.log(test(3, 7));
+// debugger :- make break point using keyword debugger;
+// debugger;
+// console.log("welcome");
